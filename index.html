@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darlene Cheong</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@900&family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<canvas id="particleCanvas"></canvas>
+
+<body>
+    <header>
+        <div class="hamburger" onclick="toggleNav()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="mobile-nav">
+            <div class="close-btn" onclick="toggleNav()">x</div>
+            <ul>
+                <li><a href="index.html" onclick="toggleNav()">Home</a></li>
+                <li><a href="#about" onclick="toggleNav()">About</a></li>
+                <li><a href="#work" onclick="toggleNav()">Work</a></li>
+                <li><a href="#resume" onclick="toggleNav()">Resume</a></li>
+                <li><a href="#contact" onclick="toggleNav()">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-overlay" onclick="closeNav()"></div>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/darlenecheong" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/darlene-cheong" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:darlenecheongsw@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="header-content">
+            <h1>darlene</h1>
+            <h1>cheong</h1>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>About ></h2>
+                    <p>Currently a Research Associate at <a href="https://www.precisedx.ai" target="_blank">PreciseDx</a>, working on developing a tumor analysis test leveraging visual AI and clinical data sets.</p>
+                    <p>With a robust background in scientific research and hands-on startup experience, I thrive in dynamic environments, collaborating with cross-functional teams of pathologists, scientists, data analysts, software engineers, statisticians, and fellow research associates.</p>
+                    <p>Outside of work, I enjoy experimenting with new technologies and engaging in creative projects that explore the scopes of science, design, and art.</p>
+                </div>
+                <div class="about-image-container">
+                    <img src="images/Darlene_avatar.png" alt="Darlene Cheong" class="about-image">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="work">
+            <div class="work-container">
+                <div class="work-header">
+                    <h2>My Work ></h2>
+                </div>
+                <div class="work-gallery">
+                    <!-- Project 1 -->
+                    <a href="https://www.nature.com/articles/s41597-023-02692-0" target="_blank" class="work-item">
+                        <img src="https://ual.sg/post/2024/05/19/filip-biljecki-joins-the-editorial-board-of-scientific-data/featured.png" alt="https://doi.org/10.1038/s41597-023-02692-0">
+                        <h3>Rapid surveillance of New York City healthcare center egress behaviors during the 2020 COVID-19 lockdown</h3>
+                        <br>
+                        <p>November 2023</p>
+                    </a>
+            
+                    <!-- Project 2 -->
+                    <div class="work-item">
+                        <img src="images/room.png" alt="Project1">
+                        <h3>Creative Pursuits</h3>
+                            <br>
+                        <p>Currently working on various creative projects.</p>
+                        </div>
+
+                   
+            
+                    <!-- Project 3 -->
+                    <div class="work-item">
+                        <img src="images/thesis.png" alt="Undergraduate Honors Thesis">
+                        <h3>Honors Thesis: Temporal Localization of Bacillus subtilis Protein Kinase A (PrkA) During Spore Coat
+                            Formation Uncovers Candidate Phosphorylation Substrates</h3>
+                            <br>
+                        <p>May 2022</p>
+                        <a href="Thesis_DarleneCheong.pdf" download class="resume-btn">Download Thesis</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+    
+</section>
+
+        
+        
+<section id="resume">
+    <div class="resume-container">
+        <div class="resume-text">
+            <h2>Resume ></h2>
+            
+        </div>
+        <div class="resume-iframe">
+            <iframe src="images/resume.pdf" width="100%" height="500px"></iframe>
+            <a href="images/resume.pdf" class="resume-btn" download>Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-container"> <h2>Contact Me >
+        <p>feel free to send me a message.</p>
+    </h2></div>
+   
+
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user_email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="form-status"></p>
+</section>
+
+<!-- Link to your JavaScript -->
+<script src="script.js"></script>
+<!-- Include EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</body>
+</html>
