@@ -20,7 +20,8 @@ In the future, I plan to improve accessibility, implementing accessibility featu
 <br><br>
 
 ## Preview
-
+![Website Landing Page](images/website_preview.png)
+<br><br>
 
 ## Languages Used
 - **HTML5** for structure
