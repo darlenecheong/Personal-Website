@@ -10,14 +10,13 @@ This website marks my self-taught initiation into web development, where I built
 
 <sup><sub>Word Count: 106 words</sub></sup>
 <br><br>
+
 ## Results and Analysis
-Through this project, I learned the importance of balancing both form and function in web design. I also developed my problem-solving abilities while encountering challenges like debugging code and optimizing visual space. I learned HTML, CSS, and JavaScript primarily through online tutorials, practice, and experimenting with different layout designs. Beyond the technical aspects, the design follows a simple yet functional layout with smooth navigation between sections. I chose the theme colors based on my personal style, opting for neutral tones and subtle shades, which I believe maintains visual consistency and creates an approachable user experience. I also explored digital art by creating my own avatar in Blender, adding another personal touch. 
+Through this project, I learned the importance of balancing both form and function in web design. I also developed my problem-solving abilities while encountering challenges like debugging code and optimizing visual space. I learned HTML, CSS, and JavaScript primarily through online tutorials, practice, and experimenting with different layout designs. Beyond the technical aspects, the design follows a simple yet functional layout with smooth navigation between sections. I chose the theme colors based on my personal style, opting for neutral tones and darker shades, which I believe maintains visual consistency and creates an approachable user experience. I also explored digital art by creating my own avatar in Blender, adding another personal touch. 
 
-In the future, I plan to improve accessibility, implementing accessibility features such as better keyboard navigation and screen reader support to ensure the site is usable by a wider audience. Another improvement I am currently working on is refining the mobile experience to ensure navigation remains intuitive and the layout adapts perfectly across devices.
+In the future, I plan to improve accessibility, implementing accessibility features such as better keyboard navigation to ensure the site is usable by a wider audience. Another improvement I am currently working on is refining the mobile experience to ensure navigation remains intuitive and the layout adapts perfectly across devices. Ultimately, this website serves as a continuous project that I can improve upon as I grow my web development skills.
 
-Ultimately, this website serves as a continuous project that I can improve upon as I learn and as my work evolves. I intend for it to remain a reflection of my professional abilities and aspirations.
-
-<sup><sub>Word Count: 200 words</sub></sup>
+<sup><sub>Word Count: 181 words</sub></sup>
 <br><br>
 
 ## Preview
